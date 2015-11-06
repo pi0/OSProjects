@@ -1,0 +1,13 @@
+[
+	uuid(00000001-EAF3-4A7A-A0F2-BCE4C30DA77E),
+
+	version(1.0),
+
+	implicit_handle(handle_t ServerBinding)
+]
+interface Server
+{
+	int Fact(
+		[in] int n
+	);
+}
